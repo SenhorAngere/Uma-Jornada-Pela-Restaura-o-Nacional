@@ -1,0 +1,40 @@
+body{
+    background-color: #1D4221;
+    color: darkgrey;
+    font-family: "Hepta Slab", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+
+button {
+background-color: gold;
+color: #1D4221;
+font-family: "Hepta Slab", system-ui;
+}
+
+.passo {
+ display:none;
+}
+
+.passo.ativo {
+  display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+max-width: 90%;
+}
+
+.passo passo-1 {
+  text-align: center;
+    max-width: 90%;
+  max-width: 50%;
+}
